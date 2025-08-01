@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abdul Khader - Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #f8f9ff, #e0e7ff);
+      color: #333;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      color: #4f46e5;
+      text-shadow: 1px 1px 0 #d1d5ff;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #6b7280;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 20px 30px rgba(0, 0, 0, 0.05);
+      transform: perspective(1000px) rotateX(2deg);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      padding: 30px;
+      margin-bottom: 30px;
+    }
+
+    .card:hover {
+      transform: perspective(1000px) rotateX(0deg) scale(1.02);
+      box-shadow: 0 30px 50px rgba(0, 0, 0, 0.1);
+    }
+
+    .card h2 {
+      color: #4f46e5;
+      margin-bottom: 15px;
+    }
+
+    .card ul {
+      list-style-type: square;
+      padding-left: 20px;
+      margin-top: 10px;
+    }
+
+    .card p {
+      margin-top: 10px;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      padding: 15px 0;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Abdul Khader</h1>
+      <p>Associate Technical Support & AWS DevOps</p>
+    </header>
+
+    <main>
+      <div class="card" id="about">
+        <h2>About Me</h2>
+        <p>
+          I’m a detail-oriented Associate Technical Support Engineer with experience in managing IT systems, providing excellent customer support, 
+          and working on AWS DevOps environments. I strive to combine strong technical skills with communication and problem-solving abilities 
+          to deliver value-driven solutions.
+        </p>
+      </div>
+
+      <div class="card" id="experience">
+        <h2>Experience</h2>
+        <h3>Associate Technical Support</h3>
+        <p>
+          Supported users by troubleshooting software and hardware issues, resolving tickets, 
+          and collaborating with backend teams. Familiar with monitoring tools and handling cloud deployment tasks.
+        </p>
+      </div>
+
+      <div class="card" id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>AWS DevOps</li>
+          <li>Linux Administration</li>
+          <li>Shell Scripting</li>
+          <li>CI/CD Pipelines</li>
+          <li>Monitoring (CloudWatch, Prometheus)</li>
+        </ul>
+      </div>
+
+      <div class="card" id="contact">
+        <h2>Contact</h2>
+        <p><strong>Phone:</strong> +91-9959074353</p>
+        <p><strong>Email:</strong> abdulkhader@example.com</p>
+        <p><strong>Address:</strong> 123 Tech Street, Bangalore, India</p>
+      </div>
+    </main>
+
+    <footer>
+      © 2025 Abdul Khader
+    </footer>
+  </div>
+</body>
+</html>
+
